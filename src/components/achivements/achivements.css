@@ -1,0 +1,16 @@
+.achivements{
+    background-image: url(../../../images/5.svg);
+    height: 110vh;
+    background-size: cover;
+    color: aliceblue;
+    position: relative;
+}
+.achiv-cnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.achi-ani{
+    position: absolute;
+    left: 38%;
+}

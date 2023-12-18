@@ -1,0 +1,51 @@
+.projects{
+    background-image: url(../../../images/4.svg);
+    height: 210vh;
+    background-size: cover;
+    color: aliceblue;
+    position: relative;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+.prj-cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.prj-cards a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* .prj-cards :hover{
+    background-color: rgba(240, 248, 255, 0.233);
+} */
+.pr-ani{
+    position: absolute;
+    top: -3.5%;
+    right: 20%;
+}
+@media only screen and (max-width: 768px) {
+    .projects {
+        
+        height: 100%;
+        
+         /* Allow the skills to take full width on smaller screens */
+    }
+    .prj-cards{
+        width: 100%;
+        height: 30%;
+    }
+    .pr-ani{
+        top: 8%;
+        right: 30%;
+    }
+    
+}

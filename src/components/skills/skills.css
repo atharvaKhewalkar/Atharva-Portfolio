@@ -1,0 +1,62 @@
+/* .skills{
+    background-image: url(../../../images/3.svg);
+    height: 120vh;
+    background-size: cover;
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.skill-cnt{
+    
+    justify-content: center;
+    padding: 2rem;
+    display: flex;
+    flex-wrap:wrap ;
+    width: 75%;
+    height: 80vh;
+    gap: 3rem;
+   
+    
+}
+.skill-cnt :hover{
+    background-color: rgba(240, 248, 255, 0.233);
+} */
+.skills {
+    background-image: url(../../../images/3.svg);
+    height: 125vh;
+    background-size: cover;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-cnt {
+    justify-content: center;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    height: auto; /* Adjust height as needed */
+    gap: 3rem;
+}
+
+/* .skill-cnt :hover {
+    background-color: rgba(240, 248, 255, 0.233);
+} */
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .skill-cnt {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+    .skills{
+        height: 100vh;
+        width: 100%;
+    }
+}

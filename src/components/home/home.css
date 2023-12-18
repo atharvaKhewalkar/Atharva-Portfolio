@@ -1,0 +1,159 @@
+/* .home{
+    background-image: url(../../../images/1.svg);
+    height: 100vh;
+    background-size: cover;
+    color: aliceblue;
+    padding: 2rem;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgba(33, 33, 33, 0.334);
+    color: rgb(246, 246, 246);
+    border-radius: 5rem;
+    width: auto;
+    box-shadow: 4px 2px 5px 1px #fe9be547;
+}
+.navbar ul {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+.navbar ul  :hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #b60589;
+}
+.hero{
+    padding: 5rem;
+    display: flex;
+    height: 70vh;
+}
+.h-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #b6056307;
+    border-radius: 2rem;
+}
+.h-left h1{
+    font-size: 6rem;
+}
+.h-right{
+    display: flex;
+    justify-content: end;
+    z-index: 1;
+    position: absolute;
+    left: 64rem;
+}
+  */
+
+  .home {
+    background-image: url(../../../images/1.svg);
+    height: 100vh;
+    background-size: cover;
+    color: aliceblue;
+    padding: 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgba(33, 33, 33, 0.334);
+    color: rgb(246, 246, 246);
+    border-radius: 5rem;
+    width: auto;
+    box-shadow: 4px 2px 5px 1px #fe9be547;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.navbar ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #b60589;
+}
+
+.hero {
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.h-left {
+    flex: 1; /* Take up the available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #b6056307;
+    border-radius: 2rem;
+    margin-bottom: 2rem; /* Add margin to separate from the right column */
+}
+
+.h-left h1 {
+    font-size: 6rem;
+}
+h4{
+    font-style: italic;
+}
+
+.h-right {
+    flex: 1; /* Take up the available space */
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    left: 69%;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .hero {
+        height: auto; /* Adjust height as needed */
+        padding: 2rem; /* Adjust padding as needed */
+        
+    }
+    .h-left h1 {
+        font-size: 3.5rem;
+    }
+    .home{
+        height: 100%;
+    }
+    
+    .h-right {
+        width: 50%; /* Take up the full width on smaller screens */
+        bottom: 5%;
+        left: 35%;
+        right: 0%;
+    }
+    .h-left{
+        width: 10%;
+        height: 100%;
+        text-wrap: wrap;
+    }
+    
+}
